@@ -1,0 +1,50 @@
+
+.hash-board {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column{
+  padding: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+.top > .left{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.top > .midle{
+  border-bottom: 2px solid black;
+}
+
+.top > .right{
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.midle > .left{
+  border-right: 2px solid black;
+}
+
+.midle > .right{
+  border-left: 2px solid black;
+}
+
+.bottom > .left{
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.bottom > .midle{
+  border-top: 2px solid black;
+}
+
+.bottom > .right{
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
